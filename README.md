@@ -1,7 +1,7 @@
 ABBAS
 ===
 
-To examine the impact of certain behavioral traits on collective behavior, we
+To examine the impact of individual variations in foraging behaviors, we
 developed a spatially-explicit Agent-Based Model. ABBAS (Animal Behavior Based
 on Agents Simulations) is a free software that simulates honey bees foraging in
 a bidimensional space using Python's standard numerical libraries. It implements
@@ -10,7 +10,7 @@ following a wide range of experiments (see below for more details), and a
 recruitment mechanism that mimics the [waggle dance in honey
 bees](https://en.wikipedia.org/wiki/Waggle_dance). Foragers were divided into
 two groups, scouts and recruits, with each group having their own properties.
-ABBAS provides an API to easily control the properties of each group and easily
+ABBAS provides an API to control the properties of each group easily and
 schedule batches of simulations.
 
 The current version of this software (v1.0) was used in a [recent
@@ -105,6 +105,5 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with
-this program.  If not, see
-[<http://www.gnu.org/licenses/>](http://www.gnu.org/licenses/).
+this program.  If not, see <http://www.gnu.org/licenses/>.
 ```
