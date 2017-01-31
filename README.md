@@ -1,24 +1,43 @@
 ABBAS
 ===
 
-Animal behavior based on agents simulation
+To examine the impact of certain behavioral traits on collective behavior, we
+developed a spatially-explicit Agent-Based Model. ABBAS (Animal Behavior Based
+on Agents Simulations) is a free software that simulates honey bees foraging in
+a bidimensional space using Python's standard numerical libraries. It implements
+a detailed flight dynamics based on stochastic diffusion processes, parametrized
+following a wide range of experiments (see below for more details), and a
+recruitment mechanism that mimics the [waggle dance in honey
+bees](https://en.wikipedia.org/wiki/Waggle_dance). Foragers were divided into
+two groups, scouts and recruits, with each group having their own properties.
+ABBAS provides an API to easily control the properties of each group and easily
+schedule batches of simulations.
+
+The current version of this software (v1.0) was used in a [recent
+paper](https://github.com/VandroiyLabs/ABBAS#relevant-papers) was used to study
+the joint impact of task allocation and behavioral persistence on collective
+behavior.
 
 
-Relevant papers
+Relevant publications
 ---
 
 If you find this useful, please star this repository and/or cite our paper:
 
-Thiago Mosqueiro, Chelsea Cook, Ramon Huerta, Jürgen Gadau, Brian Smith, Noa
+* Thiago Mosqueiro, Chelsea Cook, Ramon Huerta, Jürgen Gadau, Brian Smith, Noa
 Pinter-Wollman. **Task allocation and site fidelity jointly influence foraging
 regulation in honey bee colonies.** [Under review.] ()
+
+We also have an associated [dataset published on FigSahre]().
 
 
 Sample code
 ---
 
-As an example of how to use ABBAS can be applied, we provide a sample code that
-reproduces Figure 3a from our paper. In this example,
+As an example of how to use ABBAS can be applied, [we provide a sample code that
+reproduces Figure 3a from our
+paper](https://github.com/VandroiyLabs/ABBAS/tree/master/documentation/Submitted%20Paper).
+In this example,
 
 * we set up an environmentwith an initial amount of resources,
 
@@ -63,8 +82,8 @@ provided in the
 tl;dr version: You **can** run, distribute, study, copy and improve as long as
 you keep the original license. If you modify it, you **must** share your
 improvements under GPL-3. Just remember **not to sue** us if anything goes wrong
-with the code. We would of course appreciate if you leave a star in our original
-repository to show your support.
+with the code. We would, of course, appreciate if you leave a star in our
+original repository to show your support.
 
 
 For a summary (boilerplate):
