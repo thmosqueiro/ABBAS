@@ -31,6 +31,14 @@ regulation in honey bee colonies.** [Under review.] ()
 We also have an associated [dataset published on FigSahre]().
 
 
+Overview, Design concepts, and Details (ODD)
+---
+
+We also provide a description of our model using the [ODD
+protocol](http://bio.uib.no/te/papers/Grimm_2010_The_ODD_protocol_.pdf). This
+will be updated as our model evolves. You can find the ODD document [here](https://github.com/VandroiyLabs/ABBAS/tree/master/documentation/ODD).
+
+
 Sample code
 ---
 
