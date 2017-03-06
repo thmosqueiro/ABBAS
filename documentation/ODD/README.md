@@ -14,6 +14,12 @@ The source code of our implementation is available in this GitHub repository. Co
 
 The purpose of this model is to study the impact of colony-level distribution among tasks and behavioral persistence of individuals on the collective tradeoff between exploring for new resources and exploiting familiar ones. With this model, we can generate new hypotheses for further empirical work on the regulation of collective behavior and its response to various environment conditions.
 
+We have prepared a video with our model in action. Click in the image below to watch it on YouTube.
+
+[![Animated gif from the video](https://raw.githubusercontent.com/VandroiyLabs/ABBAS/master/documentation/ODD/video.gif)](https://www.youtube.com/watch?v=_hZGlT_luLI&t=69s)
+
+We have animations rendered for some of the scenarios explored in our paper, however we are still uploading those.
+
 
 ## For whom is this model designed?
 
