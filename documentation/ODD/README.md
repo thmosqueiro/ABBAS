@@ -137,17 +137,17 @@ Depending on each state variable, they are updated in different moments.
 
 ## Basic principles
 
-This model explores the joint impact of task allocation and behavioral persistence in the foraging performance of the colony. Each group of foragers (scouts and recruits) perform different tasks, each contributing to exploration and exploitaiton. Our model incorporates how scouts communicate to recruits the direction, distance, and quality of newly found resources ([waggle dance](https://en.wikipedia.org/wiki/Waggle_dance)). This strategy reduces waste of energy spent when searching for food, and also prevent dangers such as predation. Behavioral persistence changes how many trips foragers will make back and forth to a resource spot. This model also incorporates flight precision observed in field experiments.
+This model explores the joint impact of task allocation and behavioral persistence in the foraging performance of the colony. Each group of foragers (scouts and recruits) perform different tasks, each contributing to exploration and exploitation. Our model incorporates how scouts communicate to recruits the direction, distance, and quality of newly found resources ([waggle dance](https://en.wikipedia.org/wiki/Waggle_dance)). This strategy reduces waste of energy spent when searching for food, and also prevent dangers such as predation. Behavioral persistence changes how many trips foragers will make back and forth to a resource spot. This model also incorporates flight precision observed in field experiments.
 
 
 #### How was recruitment taken into account?
 
-Honey bees recruit foragers using the [waggle dance](https://en.wikipedia.org/wiki/Waggle_dance). You can see honey bees performing the waggle dance in [this video](https://www.youtube.com/watch?v=bFDGPgXtK-U), published by Georgia Tech College of Computing. In our model, this mechanism was modeled by making a recruiting forager (scout or recruit) communicate the location where a resource was found to a new recruit. This recruit will then set its own drifting vector to that location and leave the hive.
+Honey bees recruit foragers using the [waggle dance](https://en.wikipedia.org/wiki/Waggle_dance). You can see honey bees performing the waggle dance in [this video](https://www.youtube.com/watch?v=bFDGPgXtK-U), published by Georgia Tech College of Computing. In our model, this mechanism was modeled by making a recruiting forager (scout or recruit) communicate the location where a resource was found to a new recruit. This recruit will then set its drifting vector to that location and leave the hive.
 
 
 #### Will the model provide insights about the basic principles themselves?
 
-The model predicts that behavioral persistence and task allocation jointly influence the performance of a honey bee colony during foraging. In particular, for each value of persistance, there is a ratio between scouts and recruits that optimizes the foraging performance of a colony. The model also predicts that changing the persistence of recruits induces a strongest impact in the colony performance.
+The model predicts that behavioral persistence and task allocation jointly influence the performance of a honey bee colony during foraging. In particular, for each value of persistence, there is a ratio between scouts and recruits that optimize the foraging performance of a colony. The model also predicts that changing the persistence of recruits induces a stronger impact in the colony performance.
 
 
 ## Adaptation
@@ -173,18 +173,18 @@ No predictive models were employed in the decision-making processes involved in 
 
 #### What state variables of which other individuals can an individual perceive?
 
-When a forager reports to other recruits the location of a resource spot, recruits that decide leave the hive and exploit that spot then have access to ("perceive", in an ODD language) the location of that spot.
+When a forager reports to other recruits the location of a resource spot, recruits that decide leave the hive and exploit that spot then have access to ("perceive," in an ODD language) the location of that spot.
 
 #### How do honey bees sense the resources?
 
-Once a honey bee is within 1 unit of distance (~70cm) from a resource spot, it was able to sense it and, therefore, grab 1 unit of food (1ml of succrose).
+Once a honey bee is within 1 unit of distance (~70cm) from a resource spot, it was able to sense it and, therefore, grab 1 unit of food (1ml of sucrose).
 
 
 ## Interaction
 
 #### What kinds of interactions among agents are assumed?
 
-Bees only interact by recruitng other bees.
+Bees only interact by recruiting other bees.
 
 
 #### If the interactions involve communication, how are such communications represented?
@@ -194,15 +194,15 @@ The drifting vector of recruits that decide leave the hive and exploit a spot re
 
 ## Stochasticity
 
-There are four stochasticit elements in this model: assignment of the drifting vector, the flight dynamics, how recruits decide to exploit resources, and how the environment is created.
+There are four stochasticity elements in this model: assignment of the drifting vector, the flight dynamics, how recruits decide to exploit resources, and how the environment is created.
 
-#### The angle of the drifting vector of scouts were assigned uniformly.
+#### The angle of the drifting vector of scouts was assigned uniformly.
 
 Because the drifting vector of model bees define their preferred direction of flight, by drawing their angle from a uniform distribution between 0 and 2pi then all the area was eventually covered. The magnitude of the vector was always the same to guarantee the same average velocity.
 
 #### The flight dynamics follows a diffusion process.
 
-Each bee follows a . This diffusion process is usually refered to as [Wiener process](https://en.wikipedia.org/wiki/Wiener_process), which is a special case of a Random Walk. On top of this diffusion process, bees had a preferential direction of movement determined by their drifting vectors. The final dynamics is shown in the figure below.
+Each bee follows a . This diffusion process is usually referred to as [Wiener process](https://en.wikipedia.org/wiki/Wiener_process), which is a particular case of a Random Walk. On top of this diffusion process, bees had a preferred direction of movement determined by their drifting vectors. The final dynamics is shown in the figure below.
 
 #### Recruits decides stochastically to start foraging
 
@@ -212,14 +212,14 @@ Each recruit independently decided to leave the hive with a probability rate of 
 
 * p(t) = K / Nr &nbsp;&nbsp;&nbsp; otherwise, where Nr is the number of available recruits and K is a free parameter.
 
-By defining p(t) this way, then the number of recruits that each forager recruited per trip is approximately K x Td, where Td is the time each scouts remains dancing (50 unit steps). The effect of K on the colony outcome was studied in our  Supplemental Material (Figure S3).
+By defining p(t) this way, then the number of recruits that each forager recruited per trip is approximately K x Td, where Td is the time each forager remained dancing (50 unit steps). The effect of K on the colony outcome was studied in our  Supplemental Material (Figure S3).
 
-#### Recruits decides stochastically which recruiting forager to follow.
+#### Recruits stochastically decide which recruiting forager to follow.
 
 After decided to leave the hive to forage, recruits chose randomly which of the reported resource locations, with equal likelihood to each possible location.
 
 
-#### Environment is created with a stochastic process.
+#### The environment is created with a stochastic process.
 
 In all experiments reported, we used an environment with three patches of resources. Each patch was composed of points uniformly distributed along a square area (see figure below). All patches were equally distant from the hive.  The effect of a larger number of patches was explored in the Supplemental Material (Figure S6).
 
@@ -243,11 +243,11 @@ The total amount of resources collected by all bees is the .
 
 #### How and when is the total amount of resources collected?
 
-The total amount of resources collected was calculated as simply the total number of resources collected throughout the whole simulation. Each bee was allowed to bring back to the hive 1 unit of resource per trip. Because bees usually retrieve about 1ml of succrose per trip in experiments, this total amount of resources collected is measured in mililiters without any need for conversion.
+The total amount of resources collected was calculated as simply the total number of resources collected throughout the whole simulation. Each bee was allowed to bring back to the hive 1 unit of resource per trip. Because bees usually retrieve about 1ml of sucrose per trip in experiments, this total amount of resources collected is measured in milliliters without any need for conversion.
 
 #### Are all output data freely used, or are only certain data sampled and used?
 
-All data is used.
+All data was used.
 
 
 <br />
@@ -258,17 +258,17 @@ All data is used.
 
 ## How was the model implemented?
 
-The model was implemented using a parallel framework developped in Python which we refer to as ABBAS.
+The model was implemented using a parallel framework developed in Python which we refer to as ABBAS.
 
 
 ## Initialization
 
-#### Do all honey bees always start at the same loation?
+#### Do all honey bees always start at the same location?
 
 Yes, the simulation starts with all honey bees inside the hive. In the first iteration, random drifting vectors are assigned to each scout. All recruits remain in the hive until become recruited by a scout.
 
 #### Is the environment exactly the same?
-No. Given a fixed number of patches, each patch is formed by the a Poisson Point Process and thus changes. The average number of resource points in each patch can be evaluated according to the following formula: .
+No. Given a fixed number of patches, each patch is formed by a Poisson Point Process and thus changes. The average number of resource points in each patch can be easily evaluated.
 
 
 
