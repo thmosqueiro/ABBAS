@@ -184,7 +184,7 @@ Once a honey bee is within 1 unit of distance (~70cm) from a resource spot, it w
 
 #### What kinds of interactions among agents are assumed?
 
-Bees only interact by recruiting other bees.
+Bees only interact by during the recruitment process.
 
 
 #### If the interactions involve communication, how are such communications represented?
@@ -239,7 +239,8 @@ No, each bee is assigned a task (scout/recruit) and will behave accordingly thro
 
 #### What data are collected from the ABM for testing, understanding, and analyzing it?
 
-The total amount of resources collected by all bees is the .
+The data collected from the model is the total amount of resources collected by all bees throughout the whole simulation.
+
 
 #### How and when is the total amount of resources collected?
 
