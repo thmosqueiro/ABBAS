@@ -28,21 +28,21 @@ This model was designed for ecologists and computational biologists interested i
 
 ## What kind of entities are in this model?
 
-Entities (or agents) are honey bee foragers, divided into two groups: scouts and recruits. Scouts sponteneously leave the hive and explore the environment. Once a food patch is discovered, scouts report its location to recruits which then may choose to leave the hive to exploit that food patch.
+Entities (or agents) are honey bee foragers, divided into two groups: scouts and recruits. Scouts spontaneously leave the hive and explore the environment. Once a food patch is discovered, scouts report its location to recruits which then may choose to leave the hive to exploit that food patch.
 
 
 ## How is space included in this model?
 
-The environment is a square, bidimensional, continuous space of sides 36m (or 1.3 km2 in total area). The hive was always positioned at the origin of the space. Bees were free to fly throughout the entire arena, however when they reached the borders they were brought back to the hive. The position of the resource points were stored in a grid to simplify computations.
+The environment is a square, bidimensional, continuous space of sides 36m (or 1.3 km2 in total area). The hive was always positioned at the origin of the space. Bees were free to fly throughout the entire arena, however when they reached the borders, they were brought back to the hive. The position of the resource points was stored in a grid to simplify computations.
 
 
 ## By what attributes are these agents characterised?
 
-Each agent is characterized by the following variables. The values introduced below match the software implementation of this model.
+The following variables characterized each agent. The values introduced below match the software implementation of this model.
 
-* Position, given by a vector (x,y). The position is measured with respect to the hive, which is located at the (0,0).
+* Position, given by a vector (x,y). The position is measured with respect to the hive, located at the (0,0).
 
-* Drifting vector, which defines the preferential direction of movement in flight.
+* Drifting vector, which defines the preferred direction of movement in flight.
 
 * Location of a previously visited resource.
 
@@ -57,12 +57,12 @@ All units were chosen to fit 7h of total simulation and an total area of 36 x 36
 
 * 1 unit of time is approximately 1.2s
 
-* Each bee carries one unit of resource, which is converted to 1 mililitter of sucrrose.
+* Each bee carries one unit of resource, which is converted to 1 mililitter of sucrose.
 
 
 ## Implementation
 
-ABBAS is implemented to support parallelization and evaluate statistics of simulated system the on the-fly to stopping criterea.
+ABBAS is implemented to support parallelization and evaluates statistics of the simulated system the on-the-fly to define stopping criteria.
 
 
 #### Is the model implementation accessible to anyone?
@@ -71,7 +71,7 @@ Yes, the source code of our model can be found on [Github](./). You can also fin
 
 #### Are special libraries needed?
 
-Because we used Python and popular libraries (such as numpy, scipy and matplotlib), the core of this implementation is independent from platform and shold run in most computers with Python. It was, however, never tested in Windows machines. We are currently working to upload a newer version that offers automated dependency checking with pip. If you have feedback, feel free to create Issues or Pull Requests in the main repository.
+Because we used Python and popular libraries (such as numpy, scipy and matplotlib), the core of this implementation is independent of platform and should run on most computers with Python. It was, however, never tested in Windows machines. We are currently working to upload a newer version that offers automatic dependency checking with pip. If you have feedback, feel free to create Issues or Pull Requests in the main repository.
 
 
 ## Process overview and scheduling
@@ -84,7 +84,7 @@ Although time is considered continuous, we used the Euler–Maruyama method to s
 
 2. If a resource is found, grab one unit of resource (1ml of succrose) and return to the hive
 
-3. Remain in the hive for 50 time steps. During this time, this bee is reporting the position of that resource to available recruits.
+3. Remain in the hive for 50 time steps. During this period, this bee is reporting the position of that resource to available recruits.
 
 4. Go back to the same resource spot P times.
 
@@ -97,7 +97,7 @@ Although time is considered continuous, we used the Euler–Maruyama method to s
 
 2. Randomly decide to leave the hive to exploit a particular resource (see section Interactions for details).
 
-3. Choose one of the reported locations and define its position as new drifiting vector.
+3. Choose one of the reported locations as its new drifting vector.
 
 4. Leave the hive to look for that resource spot for P+1 times.
 
@@ -111,12 +111,12 @@ Although time is considered continuous, we used the Euler–Maruyama method to s
 Time is continuous. Flight dynamics follow a diffusion process modeled by a [Wiener process](https://en.wikipedia.org/wiki/Wiener_process), integrated using the Euler–Maruyama method.
 
 
-#### In what sequence model entities are processed?
+#### In what sequence are model entities processed?
 
 In each time step, all entities (foragers) are updated at the same time and synchronously.
 
 
-#### When state variables are updated?
+#### When are state variables updated?
 
 Depending on each state variable, they are updated in different moments.
 
@@ -124,9 +124,9 @@ Depending on each state variable, they are updated in different moments.
 
 * Drifting vector of each bee is only updated when they leave the hive to exploit a particular resource spot for the first time.
 
-* Task assignment (scout vs recruit) is never changed throughout the simulations.
+* Task assignment (scout vs. recruit) is never changed throughout the simulations.
 
-* Average velocity of scouts are updated to that of recurits whenever it is exploiting a particular resource.
+* The average velocity of scouts is updated to that of recruits whenever it is exploiting a particular resource.
 
 
 <br />
