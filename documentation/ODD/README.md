@@ -1,10 +1,10 @@
 # ODD: Simulation of honey bees foraging
 
-This description of a model of honey bees foraging published in the paper [\*. under review. 2017.](./) follows the **O**verview, **D**esign Concepts and **D**etails (ODD) protocol. To write this document, we followed the guidelines presented in [Grimm et al. (Ecological Modelling 2010)](http://linkinghub.elsevier.com/retrieve/pii/S030438001000414X). We have been including questions that colleagues and interested researchers have asked us as we receive them to make this ODD document as complete and useful as possible.
+This description of a model of honey bees foraging published in the paper [Mosqueiro et al. (under review) 2017.](https://arxiv.org/abs/1703.04731) follows the **O**verview, **D**esign Concepts and **D**etails (ODD) protocol. To write this document, we followed the guidelines presented in [Grimm et al. (Ecological Modelling 2010)](http://linkinghub.elsevier.com/retrieve/pii/S030438001000414X). We have been including questions that colleagues and interested researchers have asked us as we receive them to make this ODD document as complete and useful as possible.
 
 The source code of our implementation is available in this GitHub repository. Comments and suggestions are welcome. Feel free to open an [Issue](https://github.com/VandroiyLabs/ABBAS/issues) or create a Pull Request.
 
-**Reference paper:** [\*. under review. 2017.](./)
+**Reference paper:** [Mosqueiro, Cook, Huerta, Gadau, Smith, Pinter-Wollman. Under review (2017).](https://arxiv.org/abs/1703.04731)
 
 <br />
 
@@ -16,7 +16,7 @@ The purpose of this model is to study the impact of colony-level distribution am
 
 We have prepared a video with our model in action. Click in the image below to watch it on YouTube.
 
-[![Animated gif from the video](https://raw.githubusercontent.com/VandroiyLabs/ABBAS/master/documentation/ODD/video.gif)](https://www.youtube.com/watch?v=_hZGlT_luLI&t=69s)
+[![Animated gif from the video](https://raw.githubusercontent.com/VandroiyLabs/ABBAS/master/documentation/ODD/video.gif)](https://www.youtube.com/watch?v=_hZGlT_luLI)
 
 We have animations rendered for some of the scenarios explored in our paper, however we are still uploading those.
 
