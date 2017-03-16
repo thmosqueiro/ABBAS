@@ -13,6 +13,9 @@ two groups, scouts and recruits, with each group having their own properties.
 ABBAS provides an API to control the properties of each group easily and
 schedule batches of simulations.
 
+
+[![Animated gif from the video](https://raw.githubusercontent.com/VandroiyLabs/ABBAS/master/documentation/ODD/video.gif)](https://www.youtube.com/watch?v=_hZGlT_luLI)
+
 The current version of this software (v1.0) was used in a [recent
 paper](https://github.com/VandroiyLabs/ABBAS#relevant-papers) was used to study
 the joint impact of task allocation and behavioral persistence on collective
@@ -26,7 +29,7 @@ If you find this useful, please star this repository and/or cite our paper:
 
 * Thiago Mosqueiro, Chelsea Cook, Ramon Huerta, Jürgen Gadau, Brian Smith, Noa
 Pinter-Wollman. **Task allocation and site fidelity jointly influence foraging
-regulation in honey bee colonies.** [Under review.] ()
+regulation in honey bee colonies.** [Under review.] (https://arxiv.org/abs/1703.04731)
 
 We also have an associated [dataset published on FigSahre]().
 
