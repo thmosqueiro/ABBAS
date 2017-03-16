@@ -4,7 +4,9 @@ This description of a model of honey bees foraging published in the paper [Mosqu
 
 The source code of our implementation is available in this GitHub repository. Comments and suggestions are welcome. Feel free to open an [Issue](https://github.com/VandroiyLabs/ABBAS/issues) or create a Pull Request.
 
-**Reference paper:** [Mosqueiro, Cook, Huerta, Gadau, Smith, Pinter-Wollman. Under review (2017).](https://arxiv.org/abs/1703.04731)
+**Reference paper:** Thiago Mosqueiro, Chelsea Cook, Ramon Huerta, Jürgen Gadau, Brian Smith, Noa
+Pinter-Wollman. **Task allocation and site fidelity jointly influence foraging
+regulation in honey bee colonies.** [Under review.] (https://arxiv.org/abs/1703.04731)
 
 <br />
 
