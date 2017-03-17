@@ -29,7 +29,7 @@ If you find this useful, please star this repository and/or cite our paper:
 
 * Thiago Mosqueiro, Chelsea Cook, Ramon Huerta, Jürgen Gadau, Brian Smith, Noa
 Pinter-Wollman. **Task allocation and site fidelity jointly influence foraging
-regulation in honey bee colonies.** [Under review.] (https://arxiv.org/abs/1703.04731)
+regulation in honey bee colonies.** [Under review.] (https://www.researchgate.net/publication/315096594_Task_allocation_and_site_fidelity_jointly_influence_foraging_regulation_in_honey_bee_colonies)
 
 We also have an associated [dataset published on FigSahre]().
 
