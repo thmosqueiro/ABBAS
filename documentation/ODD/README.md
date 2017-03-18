@@ -1,12 +1,12 @@
 # ODD: Simulation of honey bees foraging
 
-This description of a model of honey bees foraging published in the paper [Mosqueiro et al. (under review) 2017.](https://arxiv.org/abs/1703.04731) follows the **O**verview, **D**esign Concepts and **D**etails (ODD) protocol. To write this document, we followed the guidelines presented in [Grimm et al. (Ecological Modelling 2010)](http://linkinghub.elsevier.com/retrieve/pii/S030438001000414X). We have been including questions that colleagues and interested researchers have asked us as we receive them to make this ODD document as complete and useful as possible.
+This description of a model of honey bees foraging published in the paper [Mosqueiro et al. (under review) 2017.](https://www.researchgate.net/publication/315096594_Task_allocation_and_site_fidelity_jointly_influence_foraging_regulation_in_honey_bee_colonies) follows the **O**verview, **D**esign Concepts and **D**etails (ODD) protocol. To write this document, we followed the guidelines presented in [Grimm et al. (Ecological Modelling 2010)](http://linkinghub.elsevier.com/retrieve/pii/S030438001000414X). We have been including questions that colleagues and interested researchers have asked us as we receive them to make this ODD document as complete and useful as possible.
 
 The source code of our implementation is available in this GitHub repository. Comments and suggestions are welcome. Feel free to open an [Issue](https://github.com/VandroiyLabs/ABBAS/issues) or create a Pull Request.
 
 **Reference paper:** Thiago Mosqueiro, Chelsea Cook, Ramon Huerta, Jürgen Gadau, Brian Smith, Noa
 Pinter-Wollman. **Task allocation and site fidelity jointly influence foraging
-regulation in honey bee colonies.** [Under review.] (https://arxiv.org/abs/1703.04731)
+regulation in honey bee colonies.** [Under review.] (https://www.researchgate.net/publication/315096594_Task_allocation_and_site_fidelity_jointly_influence_foraging_regulation_in_honey_bee_colonies)
 
 <br />
 
