@@ -29,9 +29,11 @@ If you find this useful, please star this repository and/or cite our paper:
 
 * Thiago Mosqueiro, Chelsea Cook, Ramon Huerta, Jürgen Gadau, Brian Smith, Noa
 Pinter-Wollman. **Task allocation and site fidelity jointly influence foraging
-regulation in honey bee colonies.** [Under review.] (https://www.researchgate.net/publication/315096594_Task_allocation_and_site_fidelity_jointly_influence_foraging_regulation_in_honey_bee_colonies)
+regulation in honey bee colonies.** [Under review.] 
 
-We also have an associated [dataset published on FigSahre]().
+A preprint is available [here](https://www.researchgate.net/publication/315096594_Task_allocation_and_site_fidelity_jointly_influence_foraging_regulation_in_honey_bee_colonies)
+
+* We also have an associated [dataset published on FigSahre]().
 
 
 Overview, Design concepts, and Details (ODD)
@@ -45,7 +47,7 @@ will be updated as our model evolves. You can find the ODD document [here](https
 Sample code
 ---
 
-As an example of how to use ABBAS can be applied, [we provide a sample code that
+As an example of how to use ABBAS, [we provide a sample code that
 reproduces Figure 3a from our
 paper](https://github.com/VandroiyLabs/ABBAS/tree/master/documentation/Submitted%20Paper).
 In this example,
@@ -61,7 +63,6 @@ We then compile all of these results, estimating the average and standard
 deviation of the collected food as a function of time. We finish with a fuzzy
 plot of the average amount of resource collected and 1.5 standard deviations as
 a function of time.
-
 
 
 Dependencies
