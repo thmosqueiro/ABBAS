@@ -1,6 +1,8 @@
 ABBAS
 ===
 
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.843517.svg)](http://dx.doi.org/10.5281/zenodo.843517)
+
 To examine the impact of individual variations in foraging behaviors, we
 developed a spatially-explicit Agent-Based Model. ABBAS (Animal Behavior Based
 on Agents Simulations) is a free software that simulates honey bees foraging in
@@ -27,13 +29,11 @@ Relevant publications
 
 If you find this useful, please star this repository and/or cite our paper:
 
-* Thiago Mosqueiro, Chelsea Cook, Ramon Huerta, Jürgen Gadau, Brian Smith, Noa
-Pinter-Wollman. **Task allocation and site fidelity jointly influence foraging
-regulation in honey bee colonies.** [Under review.] 
+* Mosqueiro T, Cook C, Huerta R, Gadau J, Smith B, Pinter-Wollman N. 2017
+**Task allocation and site fidelity jointly influence foraging regulation in honeybee colonies.** R. Soc. open sci. 4:170344. DOI: 10.1098/rsos.170344 (in press)
+[Preprint](https://www.researchgate.net/publication/315096594_Task_allocation_and_site_fidelity_jointly_influence_foraging_regulation_in_honey_bee_colonies)
 
-A preprint is available [here](https://www.researchgate.net/publication/315096594_Task_allocation_and_site_fidelity_jointly_influence_foraging_regulation_in_honey_bee_colonies)
-
-* We also have an associated [dataset published on FigSahre]().
+* We also have an associated [dataset published on FigSahre](https://figshare.com/articles/Task_allocation_and_site_fidelity_jointly_influence_foraging_regulation_in_honey_bee_colonies/3619779).
 
 
 Overview, Design concepts, and Details (ODD)
