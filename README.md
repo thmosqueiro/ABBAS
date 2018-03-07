@@ -1,5 +1,4 @@
-ABBAS
-===
+# ABBAS
 
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.843517.svg)](http://dx.doi.org/10.5281/zenodo.843517)
 [![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.svg?v=103)](https://opensource.org/licenses/GPL-3.0/)
@@ -26,8 +25,12 @@ the joint impact of task allocation and behavioral persistence on collective
 behavior.
 
 
-Relevant publications
----
+#### We also [provide here](https://github.com/VandroiyLabs/ABBAS/tree/master/documentation/ODD) a description of our model using the Overview, Design concepts, and Details (ODD) protocol.
+
+
+<br />
+
+## Relevant publications
 
 If you find this useful, please [star this repository](https://github.com/thmosqueiro/ABBAS/stargazers) and/or cite our paper:
 
@@ -36,16 +39,9 @@ If you find this useful, please [star this repository](https://github.com/thmosq
 * **Dataset:** Cook, Mosqueiro, Huerta, Gadau, Smith, Pinter-Wollman **Task allocation and site fidelity jointly influence foraging regulation in honeybee colonies.** [Available on FigSahre. DOI: m9.figshare.3619779.v1](https://figshare.com/articles/Task_allocation_and_site_fidelity_jointly_influence_foraging_regulation_in_honey_bee_colonies/3619779).
 
 
-Overview, Design concepts, and Details (ODD)
----
+<br />
 
-We also provide a description of our model using the [ODD
-protocol](http://bio.uib.no/te/papers/Grimm_2010_The_ODD_protocol_.pdf). This
-will be updated as our model evolves. You can find the ODD document [here](https://github.com/VandroiyLabs/ABBAS/tree/master/documentation/ODD).
-
-
-Sample code
----
+## Sample code
 
 As an example of how to use ABBAS, [we provide a sample code that
 reproduces Figure 3a from our
@@ -65,8 +61,9 @@ plot of the average amount of resource collected and 1.5 standard deviations as
 a function of time.
 
 
-Dependencies
----
+<br />
+
+## Dependencies
 
 This software uses Python 2.7*. We list below the required Python libraries that
 are non-standard:
@@ -83,8 +80,7 @@ To create the videos:
 * ffmpeg 3.0.*
 
 
-License
----
+## License
 
 This software is distributed under the [GPL-3
 license](https://choosealicense.com/licenses/gpl-3.0/). Read the full terms are
