@@ -29,13 +29,11 @@ behavior.
 Relevant publications
 ---
 
-If you find this useful, please star this repository and/or cite our paper:
+If you find this useful, please [star this repository](https://github.com/thmosqueiro/ABBAS/stargazers) and/or cite our paper:
 
-* Mosqueiro T, Cook C, Huerta R, Gadau J, Smith B, Pinter-Wollman N. 2017
-**Task allocation and site fidelity jointly influence foraging regulation in honeybee colonies.** R. Soc. open sci. 4:170344. DOI: 10.1098/rsos.170344 (in press)
-[Preprint](https://www.researchgate.net/publication/315096594_Task_allocation_and_site_fidelity_jointly_influence_foraging_regulation_in_honey_bee_colonies)
+* Mosqueiro, Cook, Huerta, Gadau, Smith, Pinter-Wollman **Task allocation and site fidelity jointly influence foraging regulation in honeybee colonies.** [Royal Society Open Science 4:170344 (2017). DOI: 10.1098/rsos.170344](http://rsos.royalsocietypublishing.org/content/4/8/170344) (there was a [preprint](https://www.researchgate.net/publication/315096594_Task_allocation_and_site_fidelity_jointly_influence_foraging_regulation_in_honey_bee_colonies) available too).
 
-* We also have an associated [dataset published on FigSahre](https://figshare.com/articles/Task_allocation_and_site_fidelity_jointly_influence_foraging_regulation_in_honey_bee_colonies/3619779).
+* **Dataset:** Cook, Mosqueiro, Huerta, Gadau, Smith, Pinter-Wollman **Task allocation and site fidelity jointly influence foraging regulation in honeybee colonies.** [Available on FigSahre. DOI: m9.figshare.3619779.v1](https://figshare.com/articles/Task_allocation_and_site_fidelity_jointly_influence_foraging_regulation_in_honey_bee_colonies/3619779).
 
 
 Overview, Design concepts, and Details (ODD)
