@@ -4,9 +4,33 @@ This description of a model of honey bees foraging published in the paper [Mosqu
 
 The source code of our implementation is available in this GitHub repository. Comments and suggestions are welcome. Feel free to open an [Issue](https://github.com/VandroiyLabs/ABBAS/issues) or create a Pull Request.
 
-**Reference paper:** Thiago Mosqueiro, Chelsea Cook, Ramon Huerta, Jürgen Gadau, Brian Smith, Noa
-Pinter-Wollman. **Task allocation and site fidelity jointly influence foraging
-regulation in honey bee colonies.** [Under review.] (https://www.researchgate.net/publication/315096594_Task_allocation_and_site_fidelity_jointly_influence_foraging_regulation_in_honey_bee_colonies)
+> **Reference paper:** Mosqueiro, Cook, Huerta, Gadau, Smith, Pinter-Wollman. **Task allocation and site fidelity jointly influence foraging regulation in honey bee colonies.**  [Published in Royal Society Open Science (2017).](https://www.researchgate.net/publication/315096594_Task_allocation_and_site_fidelity_jointly_influence_foraging_regulation_in_honey_bee_colonies)
+
+### Table of contents
+
+* [**Overview**](https://github.com/thmosqueiro/ABBAS/blob/master/documentation/ODD/README.md#overview)
+  * [Purpose](https://github.com/thmosqueiro/ABBAS/blob/master/documentation/ODD/README.md#purpose)
+  * [For whom is this model designed?](https://github.com/thmosqueiro/ABBAS/blob/master/documentation/ODD/README.md#for-whom-is-this-model-designed)
+  * [What kind of entities are in this model?](https://github.com/thmosqueiro/ABBAS/blob/master/documentation/ODD/README.md#what-kind-of-entities-are-in-this-model)
+  * [How is space included in this model?](https://github.com/thmosqueiro/ABBAS/blob/master/documentation/ODD/README.md#how-is-space-included-in-this-model)
+  * [By what attributes are these agents characterised?](https://github.com/thmosqueiro/ABBAS/blob/master/documentation/ODD/README.md#by-what-attributes-are-these-agents-characterised)
+  * [Units](https://github.com/thmosqueiro/ABBAS/blob/master/documentation/ODD/README.md#units)
+  * [Implementation](https://github.com/thmosqueiro/ABBAS/blob/master/documentation/ODD/README.md#implementation)
+  * [Process overview and scheduling](https://github.com/thmosqueiro/ABBAS/blob/master/documentation/ODD/README.md#process-overview-and-scheduling)  
+* [**Design concepts**](https://github.com/thmosqueiro/ABBAS/blob/master/documentation/ODD/README.md#design-concepts)
+  * [Basic principles]()
+  * [Adaptation](https://github.com/thmosqueiro/ABBAS/blob/master/documentation/ODD/README.md#adaptation)
+  * [Prediction](https://github.com/thmosqueiro/ABBAS/blob/master/documentation/ODD/README.md#prediction)
+  * [Sensing](https://github.com/thmosqueiro/ABBAS/blob/master/documentation/ODD/README.md#sensing)
+  * [Interaction](https://github.com/thmosqueiro/ABBAS/blob/master/documentation/ODD/README.md#interaction)
+  * [Stochasticity](https://github.com/thmosqueiro/ABBAS/blob/master/documentation/ODD/README.md#stochasticity)
+  * [Collectives](https://github.com/thmosqueiro/ABBAS/blob/master/documentation/ODD/README.md#collectives)
+  * [Observation](https://github.com/thmosqueiro/ABBAS/blob/master/documentation/ODD/README.md#observation)
+* [**Details**](https://github.com/thmosqueiro/ABBAS/blob/master/documentation/ODD/README.md#details)
+  * [How was the model implemented?](https://github.com/thmosqueiro/ABBAS/blob/master/documentation/ODD/README.md#how-was-the-model-implemented)
+  * [Initialization](https://github.com/thmosqueiro/ABBAS/blob/master/documentation/ODD/README.md#initialization)
+  * [Input data](https://github.com/thmosqueiro/ABBAS/blob/master/documentation/ODD/README.md#input-data)
+
 
 <br />
 
