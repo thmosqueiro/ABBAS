@@ -17,7 +17,7 @@ ABBAS provides an API to control the properties of each group easily and
 schedule batches of simulations.
 
 
-[![Animated gif from the video](https://thmosqueiro.vandroiy.com/files/projects/video.gif)](https://www.youtube.com/watch?v=_hZGlT_luLI)
+[![Animated gif from the video](video.gif)](https://www.youtube.com/watch?v=_hZGlT_luLI)
 
 The current version of this software (v1.0) was used in a [recent
 paper](https://github.com/VandroiyLabs/ABBAS#relevant-papers) was used to study

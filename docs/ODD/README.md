@@ -43,7 +43,7 @@ The purpose of this model is to study the impact of colony-level distribution am
 
 We have prepared a video with our model in action. Click in the image below to watch it on YouTube.
 
-[![Animated gif from the video](https://raw.githubusercontent.com/VandroiyLabs/ABBAS/master/documentation/ODD/video.gif)](https://www.youtube.com/watch?v=_hZGlT_luLI)
+[![Animated gif from the video](../video.gif)](https://www.youtube.com/watch?v=_hZGlT_luLI)
 
 We have animations rendered for some of the scenarios explored in our paper, however we are still uploading those.
 
