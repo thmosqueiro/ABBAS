@@ -1,8 +1,3 @@
----
-layout: default
----
-
-
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.843517.svg)](http://dx.doi.org/10.5281/zenodo.843517)
 [![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.svg?v=103)](https://opensource.org/licenses/GPL-3.0/)
 <img src="https://img.shields.io/badge/Python-_2.7-brightgreen.svg">
