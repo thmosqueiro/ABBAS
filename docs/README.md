@@ -1,7 +1,3 @@
-[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.843517.svg)](http://dx.doi.org/10.5281/zenodo.843517)
-[![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.svg?v=103)](https://opensource.org/licenses/GPL-3.0/)
-<img src="https://img.shields.io/badge/Python-_2.7-brightgreen.svg">
-
 To examine the impact of individual variations in foraging behaviors, we
 developed a spatially-explicit Agent-Based Model. ABBAS (Animal Behavior Based
 on Agents Simulations) is a free software that simulates honey bees foraging in
